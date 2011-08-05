@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  ccno: MyString
+  expdate: 2011-08-04
+
+two:
+  name: MyString
+  ccno: MyString
+  expdate: 2011-08-04

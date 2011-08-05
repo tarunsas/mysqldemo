@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @bank_info.name %>
+</p>
+
+<p>
+  <b>Ccno:</b>
+  <%= @bank_info.ccno %>
+</p>
+
+<p>
+  <b>Expdate:</b>
+  <%= @bank_info.expdate %>
+</p>
+
+
+<%= link_to 'Edit', edit_bank_info_path(@bank_info) %> |
+<%= link_to 'Back', bank_infos_path %>
